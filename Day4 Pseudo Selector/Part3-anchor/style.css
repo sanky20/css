@@ -1,0 +1,19 @@
+a:link{
+    color:green;
+}
+
+a:active{
+    color: orange;
+}
+
+a:visited{
+    color: rgb(229, 41, 73);
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:root{
+    color:cornsilk;
+}

@@ -1,0 +1,19 @@
+article>p{
+    color: blue;
+}
+
+  /* direct child selector */
+article>main>p{
+    color: rgb(243, 29, 65);
+}
+
+
+/* indirect child selector */
+article div{
+    color: green;
+}
+
+article .p1{
+    color: yellow;
+}
+

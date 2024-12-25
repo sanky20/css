@@ -1,0 +1,35 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    background-color: greenyellow;
+    width: 550px;
+    height: 500px;
+    margin: 70px auto;
+    display: flex;
+    gap: 15px ;
+}
+
+section .child{
+    height: 150px;
+    width: 150px;
+}
+
+
+section .child1{
+    background-color: red;
+}
+section .child2{
+    background-color: blue;
+}

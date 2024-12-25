@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+section {
+  color: white;
+  height: 70%;
+  width: 100;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+section article {
+  width: 40%;
+  height: 30%;
+  background-color: yellowgreen;
+}
+
+section .a1 {
+  background-color: red;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+
+
+h1{
+    /* color: red; */
+    /* color: #00ff00; */
+    /* color: rgba(255,0,255,0.8); */
+    color: hwb(120 10% 0%);
+}
+
+
+
+/* Font prpoerty */
+
+h2{
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic  ;
+    /* font-family: 'Times New Roman', Times, serif;*/
+    /* font-family: "Playwrite US Trad Guides", cursive; */
+
+    font-family: "Agu Display", serif
+
+
+}

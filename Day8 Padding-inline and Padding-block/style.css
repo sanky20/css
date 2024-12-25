@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+container {
+  display: flex;
+  height: 500px;
+}
+
+container div {
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
+  width: 33%;
+}
+
+container #box {
+  background-color: red;
+  /* padding-inline-start: 50px;
+  padding-inline-end: 100px; */
+  padding-inline: 50px 100px;
+
+  /* writing-mode: vertical-rl; */
+}
+
+section {
+  display: flex;
+}
+
+section div {
+  border: 1px solid black;
+  background-color: rgb(240, 44, 142);
+  color: white;
+}
+
+section .center {
+  background-color: rgb(143, 82, 234);
+  padding-block-start: 50px;
+  padding-block-end: 100px;
+  writing-mode: vertical-rl;
+}

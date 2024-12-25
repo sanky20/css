@@ -1,0 +1,38 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+p{
+    margin: 10px;
+}
+
+p{
+    text-align: start;
+    text-transform: capitalize;
+    /* text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-decoration-color:red ; */
+    text-decoration: 1px dashed underline red;
+    text-underline-offset: 5px;
+    text-underline-position: under;
+    line-height: 50px;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+    /* -webkit-text-stroke: 0.5px rgb(243, 146, 146); */
+    /* text-shadow: 1px 3px 2px #837474; */
+
+
+
+}

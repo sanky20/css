@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 40%;
+  height: 50px;
+}
+
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  margin-left: 38%;
+}

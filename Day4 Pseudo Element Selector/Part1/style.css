@@ -1,0 +1,35 @@
+div::first-letter{
+    color:red;
+    font-style: italic;
+}
+
+section::first-line{
+    color:rgb(88, 88, 236);
+    font-size:20px;
+    font-style: italic;
+}
+
+*::selection{
+    background-color: rgb(44, 242, 44);
+    color:white;
+}
+
+ol li::marker {
+    content: "# ";
+    color: rgb(237, 139, 10);
+}
+
+ul li::marker{
+    content: "❤️ ";
+}
+
+h1::before{
+    content:"Mahendra";
+    color:orange;
+}
+
+h1::after{
+    content:"Dhoni";
+    color:green;
+
+}

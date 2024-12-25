@@ -1,0 +1,17 @@
+article p:first-of-type{
+    color: rgb(236, 86, 111);
+}
+
+article span:last-of-type{
+    color: yellowgreen;
+}
+
+article p:nth-of-type(3){
+    background-color: pink;
+    
+}
+
+article span:nth-last-of-type(2){
+    background-color: aqua;
+    
+}

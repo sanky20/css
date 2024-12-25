@@ -1,0 +1,32 @@
+/*  Simple Selector->
+      1. Tag Name Selector
+      2. Id selector
+      3. Class selector
+      4. Universal Selector
+      5. Grouping Selector
+
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: rgb(241, 226, 226);
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+#div1{
+    color: red;
+}
+.test{
+    color: blue;
+}
+

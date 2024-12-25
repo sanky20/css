@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+   width: 100vw;
+  
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.section1{
+
+    background-image: url("https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg");
+    background-attachment: fixed;
+}
+
+.section2{
+    background-image: url("https://wallpapers.com/images/hd/beautiful-mountain-pictures-wfvd4x42htesrnyp.jpg");
+}
+
+.section3{
+    background-image: url("https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/teton-range-low-angle-view-grand-john-elk-iii.jpg");
+    background-attachment: fixed;
+
+}
+
+.section4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxDYONMzfxBBGpFfn-GxfMa3Gq3fWjoCltwA&s");
+}
+
+.section5{
+    background-image: url("https://aiartshop.com/cdn/shop/files/mountain-landscape-nature-ai-art-862.webp?v=1706976436");
+    background-attachment: fixed;
+
+}

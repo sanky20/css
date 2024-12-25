@@ -1,0 +1,32 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#main{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 120px auto;
+  
+
+    /* BORDER PROPERTY */
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color:black */
+
+    border: 5px solid black;    /* shortcut */
+
+    
+    
+}

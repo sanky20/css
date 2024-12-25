@@ -1,0 +1,10 @@
+/* Immediate sibling selector */
+.div1 + p{
+    color: yellowgreen;
+}
+
+/* General sibling selector */
+
+.div1~div{
+    color:red;
+}

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+/* #tag{
+    color: green;
+} */
+
+.tag{
+    color: blue;
+}
+
+h1{
+    color:orange;
+}
+
+*{
+    color: yellow !important;
+}
+
+/* Priority order -> 
+ !important > id > class > tag > *(gobal selector) 
+ */
